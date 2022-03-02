@@ -76,7 +76,6 @@ public class VerifySeleniumTC {
 			boolean presenceOfProduct = CheckingForRequiredProduct(Items, ProductRatings, UserRating);
 
 			if (presenceOfProduct) {
-				Thread.sleep(10);
 				Set<String> w = driver.getWindowHandles();
 
 				Iterator<String> it = w.iterator();
